@@ -1,0 +1,11 @@
+CREATE TABLE estados (
+  id int primary key,
+  uf varchar(2),
+  nome varchar(299)
+);
+
+CREATE TABLE cidades (
+  id int primary key,
+  nome varchar(200),
+  id_uf int
+);
